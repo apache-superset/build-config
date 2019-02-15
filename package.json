@@ -1,6 +1,6 @@
 {
-  "name": "@data-ui/build-config",
-  "version": "0.0.40",
+  "name": "@superset-ui/build-config",
+  "version": "0.0.0",
   "description": "Version-controlled build config for easy re-use and sharing",
   "scripts": {
     "lint": "beemo eslint .",
@@ -58,7 +58,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.4",
-    "eslint": "^5.13.0",
+    "eslint": "5.13.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-babel": "^5.2.1",

@@ -1,14 +1,14 @@
-# @data-ui/build-config
+# @superset-ui/build-config
 
 Version-controlled build config for easy re-use and sharing 📝
 
 ### Install
 
 ```
-npm install --save-dev @data-ui/build-config
+npm install --save-dev @superset-ui/build-config
 ```
 
-Before leveraging the build config provided you should remove any older dependencies or config files for the drivers you intend to use (e.g., remove `eslint` and `.eslintrc`). `@data-ui/build-config` will handle these dependencies, and it will *auto-generate the config files for you*.
+Before leveraging the build config provided you should remove any older dependencies or config files for the drivers you intend to use (e.g., remove `eslint` and `.eslintrc`). `@superset-ui/build-config` will handle these dependencies, and it will *auto-generate the config files for you*.
 
 ### Using drivers
 
@@ -19,7 +19,7 @@ can optionally configure drivers as shown below:
 ```
 {
   "beemo": {
-    "module": "@data-ui/build-config",
+    "module": "@superset-ui/build-config",
     "drivers": [
       "babel",
       {
