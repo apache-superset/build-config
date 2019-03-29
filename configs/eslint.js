@@ -125,6 +125,7 @@ module.exports = {
       }
     ],
     "react/forbid-foreign-prop-types": "error",
+    "react/jsx-fragments": ["error", 'syntax'],
     "react/jsx-handler-names": [
       "error",
       {
