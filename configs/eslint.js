@@ -37,6 +37,9 @@ module.exports = {
       node: {
         extensions: EXTS
       }
+    },
+    "react": {
+      "version": "detect",
     }
   },
   parserOptions: {
