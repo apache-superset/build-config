@@ -6,7 +6,8 @@
     "commit": "superset-commit",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "lint": "beemo eslint .",
-    "prettier": "beemo prettier \"./{configs,dotfiles}/*.{js,json,md}\""
+    "prettier": "beemo prettier \"./{configs,dotfiles}/*.{js,json,md}\"",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   },
   "beemo": {
     "module": "@local",
