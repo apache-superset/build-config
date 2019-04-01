@@ -31,3 +31,4 @@ prettier.config.js
 
 # lock files should only be used for apps
 package-lock.json
+yarn.lock

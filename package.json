@@ -3,7 +3,8 @@
   "version": "0.0.7",
   "description": "Version-controlled build config for easy re-use and sharing",
   "scripts": {
-    "commit": "git-cz",
+    "commit": "superset-commit",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "lint": "beemo eslint .",
     "prettier": "beemo prettier \"./{configs,dotfiles}/*.{js,json,md}\""
   },
@@ -20,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/williaster/data-ui.git"
+    "url": "git@github.com:apache-superset/build-config.git"
   },
   "keywords": [
     "build",
@@ -28,12 +29,15 @@
     "javascript",
     "beemo"
   ],
-  "author": "Chris Williams @williaster",
+  "authors": [
+    "Chris Williams @williaster",
+    "Krist Wongsuphasawat @kristw"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/williaster/build-tool-config/issues"
+    "url": "https://github.com/apache-superset/build-config/issues"
   },
-  "homepage": "https://github.com/williaster/build-tool-config#readme",
+  "homepage": "https://github.com/apache-superset/build-config#README",
   "dependencies": {
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
@@ -59,7 +63,6 @@
     "babel-plugin-transform-dev": "^2.0.1",
     "babel-plugin-typescript-to-proptypes": "^0.13.0",
     "babel-preset-minify": "^0.5.0",
-    "commitizen": "^3.0.7",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.4",
@@ -76,7 +79,6 @@
     "eslint-plugin-react": "^7.11.0",
     "eslint-plugin-typescript": "^0.14.0",
     "fs-extra": "^7.0.0",
-    "git-cz": "^1.8.0",
     "jest": "^24.1.0",
     "jest-runner-eslint": "^0.7.3",
     "prettier": "^1.14.3",
@@ -85,5 +87,14 @@
     "react-test-renderer": "^16.4.1",
     "typescript": "^3.1.6",
     "typescript-eslint-parser": "^21.0.2"
+  },
+  "devDependencies": {
+    "@superset-ui/commit-config": "^0.0.9",
+    "husky": "^1.3.1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
