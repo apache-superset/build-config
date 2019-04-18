@@ -86,7 +86,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-test-renderer": "^16.4.1",
-    "typescript": "^3.1.6",
+    "typescript": "^3.4.3",
     "typescript-eslint-parser": "^21.0.2"
   },
   "devDependencies": {
