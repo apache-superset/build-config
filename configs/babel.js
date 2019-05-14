@@ -20,7 +20,8 @@ const presetEnvOptions = {
   modules: args.esm ? false : "commonjs",
   shippedProposals: true,
   targets: args.node ? { node: MIN_NODE_VERSION } : { ie: MIN_IE_VERSION },
-  useBuiltIns: false
+  useBuiltIns: false,
+  corejs: 3
 };
 
 if (env === "test") {
@@ -48,6 +49,7 @@ if (args.minify) {
       removeUndefined: false,
       evaluate: false,
       builtIns: false,
+      corejs: 3,
     }
   ]);
 }
