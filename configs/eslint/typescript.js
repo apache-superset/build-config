@@ -16,7 +16,7 @@ module.exports = {
   overrides: [
     {
       parser: "@typescript-eslint/parser",
-      plugins: ["typescript"],
+      plugins: ["@typescript-eslint"],
       files: ["*.{ts,tsx}"],
       rules: {
         "no-restricted-globals": "off",
@@ -46,19 +46,19 @@ module.exports = {
         "react/prop-types": "off",
 
         // TYPESCRIPT
-        "typescript/adjacent-overload-signatures": "error",
-        "typescript/class-name-casing": "error",
-        "typescript/member-delimiter-style": "error",
-        "typescript/member-ordering": "off", // Prefer react/sort-comp
-        "typescript/no-angle-bracket-type-assertion": "error",
-        "typescript/no-empty-interface": "error",
-        "typescript/no-array-constructor": "error",
-        "typescript/no-triple-slash-reference": "error",
-        "typescript/no-parameter-properties": "error",
-        "typescript/no-unused-vars": "warn",
-        "typescript/no-use-before-define": "error",
-        "typescript/prefer-namespace-keyword": "error",
-        "typescript/type-annotation-spacing": "error"
+        "@typescript-eslint/adjacent-overload-signatures": "error",
+        "@typescript-eslint/class-name-casing": "error",
+        "@typescript-eslint/member-delimiter-style": "error",
+        "@typescript-eslint/member-ordering": "off", // Prefer react/sort-comp
+        "@typescript-eslint/no-angle-bracket-type-assertion": "error",
+        "@typescript-eslint/no-empty-interface": "error",
+        "@typescript-eslint/no-array-constructor": "error",
+        "@typescript-eslint/no-triple-slash-reference": "error",
+        "@typescript-eslint/no-parameter-properties": "error",
+        "@typescript-eslint/no-unused-vars": "warn",
+        "@typescript-eslint/no-use-before-define": "error",
+        "@typescript-eslint/prefer-namespace-keyword": "error",
+        "@typescript-eslint/type-annotation-spacing": "error"
       }
     }
   ]
