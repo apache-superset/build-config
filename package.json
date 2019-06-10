@@ -58,6 +58,7 @@
     "@beemo/driver-typescript": "^0.16.0",
     "@types/enzyme": "^3.1.15",
     "@types/jest": "^23.3.9",
+    "@typescript-eslint/parser": "^1.10.2",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.1.0",
@@ -86,8 +87,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-test-renderer": "^16.4.1",
-    "typescript": "^3.4.3",
-    "typescript-eslint-parser": "^21.0.2"
+    "typescript": "^3.5.1"
   },
   "devDependencies": {
     "@superset-ui/commit-config": "^0.0.9",

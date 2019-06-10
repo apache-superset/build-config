@@ -9,13 +9,13 @@ module.exports = {
       }
     },
     "import/parsers": {
-      "typescript-eslint-parser": [".ts", ".tsx"]
+      "@typescript-eslint/parser": [".ts", ".tsx"]
     }
   },
 
   overrides: [
     {
-      parser: "typescript-eslint-parser",
+      parser: "@typescript-eslint/parser",
       plugins: ["typescript"],
       files: ["*.{ts,tsx}"],
       rules: {
