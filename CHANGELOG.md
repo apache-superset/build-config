@@ -1,3 +1,13 @@
+<a name="0.0.10"></a>
+## [0.0.10](https://github.com/apache-superset/build-config/compare/v0.0.9...v0.0.10) (2019-06-10)
+
+
+### Features
+
+* replace typescript eslint parser ([90195a9](https://github.com/apache-superset/build-config/commit/90195a9))
+
+
+
 <a name="0.0.9"></a>
 ## [0.0.9](https://github.com/apache-superset/build-config/compare/v0.0.8...v0.0.9) (2019-04-18)
 

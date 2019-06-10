@@ -1,6 +1,6 @@
 {
   "name": "@superset-ui/build-config",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Version-controlled build config for easy re-use and sharing",
   "scripts": {
     "commit": "superset-commit",
