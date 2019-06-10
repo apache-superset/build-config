@@ -1,3 +1,13 @@
+<a name="0.0.11"></a>
+## [0.0.11](https://github.com/apache-superset/build-config/compare/v0.0.10...v0.0.11) (2019-06-10)
+
+
+### Features
+
+* replace deprecated ts eslint plugin ([f9cd670](https://github.com/apache-superset/build-config/commit/f9cd670))
+
+
+
 <a name="0.0.10"></a>
 ## [0.0.10](https://github.com/apache-superset/build-config/compare/v0.0.9...v0.0.10) (2019-06-10)
 
