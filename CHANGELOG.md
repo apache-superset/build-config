@@ -1,3 +1,13 @@
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/apache-superset/build-config/compare/v0.1.0...v0.1.1) (2019-06-11)
+
+
+### Features
+
+* remove babel-plugin-lodash ([fdd8040](https://github.com/apache-superset/build-config/commit/fdd8040))
+
+
+
 <a name="0.1.0"></a>
 # [0.1.0](https://github.com/apache-superset/build-config/compare/v0.0.12...v0.1.0) (2019-06-11)
 
