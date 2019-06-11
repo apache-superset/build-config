@@ -1,3 +1,13 @@
+<a name="0.1.0"></a>
+# [0.1.0](https://github.com/apache-superset/build-config/compare/v0.0.12...v0.1.0) (2019-06-11)
+
+
+### Features
+
+* bump beemo to 1.0.0 ([ea84e90](https://github.com/apache-superset/build-config/commit/ea84e90))
+
+
+
 <a name="0.0.12"></a>
 ## [0.0.12](https://github.com/apache-superset/build-config/compare/v0.0.11...v0.0.12) (2019-06-11)
 
