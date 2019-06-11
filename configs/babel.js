@@ -9,6 +9,7 @@ const { args } = context;
 const env = process.env.NODE_ENV;
 
 const plugins = [
+  "lodash",
   "@babel/plugin-proposal-export-default-from",
   "@babel/plugin-proposal-class-properties",
   "@babel/plugin-syntax-dynamic-import",
