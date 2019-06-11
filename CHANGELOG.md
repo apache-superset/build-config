@@ -1,3 +1,13 @@
+<a name="0.0.12"></a>
+## [0.0.12](https://github.com/apache-superset/build-config/compare/v0.0.11...v0.0.12) (2019-06-11)
+
+
+### Features
+
+* add babel-plugin-lodash ([eefe8e9](https://github.com/apache-superset/build-config/commit/eefe8e9))
+
+
+
 <a name="0.0.11"></a>
 ## [0.0.11](https://github.com/apache-superset/build-config/compare/v0.0.10...v0.0.11) (2019-06-10)
 
