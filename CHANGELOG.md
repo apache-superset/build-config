@@ -1,3 +1,13 @@
+<a name="0.1.2"></a>
+## [0.1.2](https://github.com/apache-superset/build-config/compare/v0.1.1...v0.1.2) (2019-08-22)
+
+
+### Bug Fixes
+
+* add exception for lib that needs transpile in jest ([23c5855](https://github.com/apache-superset/build-config/commit/23c5855))
+
+
+
 <a name="0.1.1"></a>
 ## [0.1.1](https://github.com/apache-superset/build-config/compare/v0.1.0...v0.1.1) (2019-06-11)
 
