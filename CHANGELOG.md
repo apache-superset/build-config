@@ -1,3 +1,13 @@
+<a name="0.1.3"></a>
+## [0.1.3](https://github.com/apache-superset/build-config/compare/v0.1.2...v0.1.3) (2019-08-22)
+
+
+### Bug Fixes
+
+* add slash ([af1e510](https://github.com/apache-superset/build-config/commit/af1e510))
+
+
+
 <a name="0.1.2"></a>
 ## [0.1.2](https://github.com/apache-superset/build-config/compare/v0.1.1...v0.1.2) (2019-08-22)
 
