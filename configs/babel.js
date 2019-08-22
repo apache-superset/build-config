@@ -58,7 +58,7 @@ if (tool.config.drivers.includes("typescript")) {
 }
 
 module.exports = {
-  ignore: [...IGNORE_PATHS.filter(p => p !== 'node_modules'), "node_modules/(?!vega-lite)", "__tests__", "__mocks__"],
+  ignore: [...IGNORE_PATHS.filter(p => p !== 'node_modules/'), "node_modules/(?!vega-lite)", "__tests__", "__mocks__"],
   plugins,
   presets
 };
