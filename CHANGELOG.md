@@ -1,3 +1,8 @@
+<a name="0.1.4"></a>
+## [0.1.4](https://github.com/apache-superset/build-config/compare/v0.1.3...v0.1.4) (2019-11-05)
+
+
+
 <a name="0.1.3"></a>
 ## [0.1.3](https://github.com/apache-superset/build-config/compare/v0.1.2...v0.1.3) (2019-08-22)
 
