@@ -1,7 +1,8 @@
+<a name="0.1.5"></a>
+## [0.1.5](https://github.com/apache-superset/build-config/compare/v0.0.9...v0.1.5) (2019-11-05)
+
 <a name="0.1.4"></a>
 ## [0.1.4](https://github.com/apache-superset/build-config/compare/v0.1.3...v0.1.4) (2019-11-05)
-
-
 
 <a name="0.1.3"></a>
 ## [0.1.3](https://github.com/apache-superset/build-config/compare/v0.1.2...v0.1.3) (2019-08-22)
@@ -20,55 +21,15 @@
 ### Bug Fixes
 
 * add exception for lib that needs transpile in jest ([23c5855](https://github.com/apache-superset/build-config/commit/23c5855))
-
-
-
-<a name="0.1.1"></a>
-## [0.1.1](https://github.com/apache-superset/build-config/compare/v0.1.0...v0.1.1) (2019-06-11)
-
-
-### Features
-
-* remove babel-plugin-lodash ([fdd8040](https://github.com/apache-superset/build-config/commit/fdd8040))
-
-
-
-<a name="0.1.0"></a>
-# [0.1.0](https://github.com/apache-superset/build-config/compare/v0.0.12...v0.1.0) (2019-06-11)
-
-
-### Features
-
-* bump beemo to 1.0.0 ([ea84e90](https://github.com/apache-superset/build-config/commit/ea84e90))
-
-
-
-<a name="0.0.12"></a>
-## [0.0.12](https://github.com/apache-superset/build-config/compare/v0.0.11...v0.0.12) (2019-06-11)
+* add slash ([af1e510](https://github.com/apache-superset/build-config/commit/af1e510))
 
 
 ### Features
 
 * add babel-plugin-lodash ([eefe8e9](https://github.com/apache-superset/build-config/commit/eefe8e9))
-
-
-
-<a name="0.0.11"></a>
-## [0.0.11](https://github.com/apache-superset/build-config/compare/v0.0.10...v0.0.11) (2019-06-10)
-
-
-### Features
-
+* bump beemo to 1.0.0 ([ea84e90](https://github.com/apache-superset/build-config/commit/ea84e90))
+* remove babel-plugin-lodash ([fdd8040](https://github.com/apache-superset/build-config/commit/fdd8040))
 * replace deprecated ts eslint plugin ([f9cd670](https://github.com/apache-superset/build-config/commit/f9cd670))
-
-
-
-<a name="0.0.10"></a>
-## [0.0.10](https://github.com/apache-superset/build-config/compare/v0.0.9...v0.0.10) (2019-06-10)
-
-
-### Features
-
 * replace typescript eslint parser ([90195a9](https://github.com/apache-superset/build-config/commit/90195a9))
 
 
