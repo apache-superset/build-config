@@ -21,7 +21,7 @@ if (context.args.noEmit) {
 // package, so that we may resolve root node_modules and types correctly.
 if (context.args.workspaces) {
   context.workspaces.forEach(wsPath => {
-    const wsRelativeRoot = path.relative(wsPath, context.workspaceRoot);
+    const wsRelativeRoot = path.relative(wsPath, String(context.workspaceRoot));
 
     typeRoots.push(path.join(wsRelativeRoot, "node_modules/@types"));
     include.push(path.join(wsRelativeRoot, "types/**/*"));
